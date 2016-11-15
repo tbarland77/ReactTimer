@@ -11,7 +11,7 @@ describe('Controls', () => {
     expect(Controls).toExist();
   });
 
-  describe('render', () => {
+  describe('render', () => {  cf
      it('should render pause when started', () => {
        var controls = TestUtils.renderIntoDocument(<Controls countdownStatus="started"/>);
        var $el = $(ReactDOM.findDOMNode(controls));
