@@ -7,7 +7,7 @@ var Controls = React.createClass({
   },
   onStatusChange: function (newStatus) {
     return () => {
-      this.props.onStatusChange(newStatus);
+      this.props.onStatusChange('newStatus', newProps.countdownStatus);
     }
   },
   render: function () {
